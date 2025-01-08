@@ -1,0 +1,7 @@
+Command 
+- converts requests into an object that contains information about the requests
+- lets you pass requests as method arguments
+- delay execution of requests
+- undo a request 
+
+
