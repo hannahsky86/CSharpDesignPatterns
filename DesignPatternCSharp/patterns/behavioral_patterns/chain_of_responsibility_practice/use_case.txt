@@ -1,0 +1,31 @@
+Bike Assembly Process 
+
+Checking and adding parts sequentially 
+
+1. Check Frame
+2. Attach Wheels 
+3. Install Breaks
+4. Final Inspection 
+
+Classes
+
+BikeAssemblyHanlder - abstract class 
+
+FrameChecked
+WheelsInstalled 
+BrakesInstalled
+Inspected
+
+
+
+FrameCheckHanlder
+WheelsInstallHandler
+BreaksInstallHanlder
+InspectionHandler
+
+
+Program
+Instantiate all the hanlders 
+Build the chain 
+Build the bike 
+Process bike through the chain 

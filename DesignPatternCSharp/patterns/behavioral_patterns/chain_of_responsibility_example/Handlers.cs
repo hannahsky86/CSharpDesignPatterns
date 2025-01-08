@@ -1,14 +1,5 @@
 namespace DesignPatternCSharp.Patterns.Behavioral.ChainOfResponsibility
 {
-    public abstract class Handler
-    {
-        protected Handler? NextHandler;
-
-        public void SetNext(Handler nextHandler) => NextHandler = nextHandler;
-
-        public abstract string Handle(Request request);
-    }
-
     public class AuthHandler : Handler
     {
         public override string Handle(Request request)
