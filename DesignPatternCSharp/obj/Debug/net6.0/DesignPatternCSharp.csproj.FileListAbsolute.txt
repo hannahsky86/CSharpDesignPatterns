@@ -1,0 +1,15 @@
+/Users/hannahroach/Desktop/DesignPatternCSharp/DesignPatternCSharp/bin/Debug/net6.0/DesignPatternCSharp
+/Users/hannahroach/Desktop/DesignPatternCSharp/DesignPatternCSharp/bin/Debug/net6.0/DesignPatternCSharp.deps.json
+/Users/hannahroach/Desktop/DesignPatternCSharp/DesignPatternCSharp/bin/Debug/net6.0/DesignPatternCSharp.runtimeconfig.json
+/Users/hannahroach/Desktop/DesignPatternCSharp/DesignPatternCSharp/bin/Debug/net6.0/DesignPatternCSharp.dll
+/Users/hannahroach/Desktop/DesignPatternCSharp/DesignPatternCSharp/bin/Debug/net6.0/ref/DesignPatternCSharp.dll
+/Users/hannahroach/Desktop/DesignPatternCSharp/DesignPatternCSharp/bin/Debug/net6.0/DesignPatternCSharp.pdb
+/Users/hannahroach/Desktop/DesignPatternCSharp/DesignPatternCSharp/obj/Debug/net6.0/DesignPatternCSharp.csproj.AssemblyReference.cache
+/Users/hannahroach/Desktop/DesignPatternCSharp/DesignPatternCSharp/obj/Debug/net6.0/DesignPatternCSharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hannahroach/Desktop/DesignPatternCSharp/DesignPatternCSharp/obj/Debug/net6.0/DesignPatternCSharp.AssemblyInfoInputs.cache
+/Users/hannahroach/Desktop/DesignPatternCSharp/DesignPatternCSharp/obj/Debug/net6.0/DesignPatternCSharp.AssemblyInfo.cs
+/Users/hannahroach/Desktop/DesignPatternCSharp/DesignPatternCSharp/obj/Debug/net6.0/DesignPatternCSharp.csproj.CoreCompileInputs.cache
+/Users/hannahroach/Desktop/DesignPatternCSharp/DesignPatternCSharp/obj/Debug/net6.0/DesignPatternCSharp.dll
+/Users/hannahroach/Desktop/DesignPatternCSharp/DesignPatternCSharp/obj/Debug/net6.0/ref/DesignPatternCSharp.dll
+/Users/hannahroach/Desktop/DesignPatternCSharp/DesignPatternCSharp/obj/Debug/net6.0/DesignPatternCSharp.pdb
+/Users/hannahroach/Desktop/DesignPatternCSharp/DesignPatternCSharp/obj/Debug/net6.0/DesignPatternCSharp.genruntimeconfig.cache

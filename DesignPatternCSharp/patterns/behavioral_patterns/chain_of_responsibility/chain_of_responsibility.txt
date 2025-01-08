@@ -1,0 +1,30 @@
+Chain of Responsibility
+
+Intent
+Pass requests along a chain of handlers
+Handlers decide to process or pass it to next handler
+
+
+Example 
+Online ordering systems 
+Restrict access to authenticated users 
+Checks happen sequentially 
+Transform certain behaviors into stand-alond handler objects 
+Each handler has a field that references the next handler 
+Each handler can execute primary behavior 
+All handlers should implement the same interface
+Use handlers with out coupling them to concrete classes 
+
+
+
+Handler - declares interface 
+
+Base Handler - optional class 
+
+Concrete Handler - actual code for processing request 
+
+Client 
+
+
+
+ 
