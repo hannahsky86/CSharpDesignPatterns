@@ -1,8 +1,13 @@
-namespace DesignPatternCSharp.Patterns.Behavioral.ChainOfResponsibility 
+namespace DesignPatternCSharp.Patterns.Behavioral.ChainOfResponsibilityPractice 
 {
-    abstract class BikeAssemblyHanlder {
+    public abstract class BikeAssemblyHandler {
         //protected abstract hanlder field 
-        //Method to link the current handler to the next on 
-        //public abstract string Handle  
+        protected BikeAssemblyHandler? NextHandler;
+
+        //Method to link the current handler to the next on
+        public void SetNext(BikeAssemblyHandler nextHandler) => NextHandler = nextHandler;
+
+        //public abstract string Handle
+        public abstract string Handle(Bike bike); 
     }
 }

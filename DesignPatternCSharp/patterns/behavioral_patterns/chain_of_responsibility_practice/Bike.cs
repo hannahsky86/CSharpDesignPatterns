@@ -1,4 +1,4 @@
-namespace DesignPatternCSharp.Patterns.Behavioral.ChainOfResponsibility 
+namespace DesignPatternCSharp.Patterns.Behavioral.ChainOfResponsibilityPractice 
 {
     public class Bike {
         //Frame Checked

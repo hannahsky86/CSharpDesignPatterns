@@ -33,8 +33,9 @@ namespace DesignPatternCSharp
         {
             Console.WriteLine("\nSelect a Behavioral Pattern:");
             Console.WriteLine("1. Chain of Responsibility");
-            Console.WriteLine("2. Observer");
-            Console.WriteLine("3. State");
+            Console.WriteLine("2. Chain of Responsibility Bike Example");
+            Console.WriteLine("3. Observer");
+            Console.WriteLine("4. State");
 
             var choice = Console.ReadLine();
             switch (choice)
@@ -43,11 +44,14 @@ namespace DesignPatternCSharp
                     Patterns.Behavioral.ChainOfResponsibility.Program.Run();
                     break;
                 case "2":
-                    Console.WriteLine("Observer pattern is not implemented yet.");
+                    Patterns.Behavioral.ChainOfResponsibilityPractice.BikeExampleProgram.Run();
                     break;
                 case "3":
                     Console.WriteLine("State pattern is not implemented yet.");
                     break;
+                case "4":
+                    Console.WriteLine("State pattern is not implemented yet.");
+                    break;    
                 default:
                     Console.WriteLine("Invalid choice!");
                     break;

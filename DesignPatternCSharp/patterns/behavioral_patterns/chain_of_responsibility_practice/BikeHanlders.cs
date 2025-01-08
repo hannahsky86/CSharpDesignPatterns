@@ -1,20 +1,49 @@
-namespace DesignPatternCSharp.Patterns.Behavioral.ChainOfResponsibility 
+namespace DesignPatternCSharp.Patterns.Behavioral.ChainOfResponsibilityPractice 
 {
 
-    public class FrameInspectedHandler: BikeAssemblyHandler {
+    public class IsFrameChecked: BikeAssemblyHandler {
         //Handle method 
+        public override string Handle(Bike bike) {
+            if(!bike.IsFrameChecked) {
+                return "Frame is not checked.";
+            }
+
+            return NextHandler?.Handle(bike) ?? "Frame is checked.";
+        }
     }
 
 
-    public class WheelsInstalledHandler: BikeAssemblyHandler {
+    public class AreWheelsInstalled: BikeAssemblyHandler {
         //Handle method 
+        public override string Handle(Bike bike) {
+            if(!bike.AreWheelsInstalled) {
+                return "Wheels are not installed.";
+            }
+
+            return NextHandler?.Handle(bike) ?? "Wheels are installed.";
+        }
     }
 
-    public class BreaksInstalledHandler: BikeAssemblyHandler {
+    public class AreBreaksInstalled: BikeAssemblyHandler {
         //Handle method
+        public override string Handle(Bike bike) {
+            if(!bike.AreBreaksInstalled) {
+                return "Breaks are not installed.";
+            }
+
+            return NextHandler?.Handle(bike) ?? "Breaks are installed.";
+        }
     }
 
-    public class FinalInspectionCompletedHandler: BikeAssemblyHandler {
+    public class IsBikeInspected: BikeAssemblyHandler {
         //Handle method
+        public override string Handle(Bike bike)
+        {
+            if(!bike.IsBikeInspected) {
+                return "Bike is not inspected.";
+            }
+
+            return NextHandler?.Handle(bike)?? "Bike is finished.";
+        }
     }
 }
