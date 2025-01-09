@@ -10,6 +10,7 @@ namespace DesignPatternCSharp
             Console.WriteLine("1. Behavioral Patterns");
             Console.WriteLine("2. Creational Patterns");
             Console.WriteLine("3. Structural Patterns");
+            Console.WriteLine("4. Interview Questions");
 
             var typeChoice = Console.ReadLine();
             switch (typeChoice)
@@ -22,6 +23,9 @@ namespace DesignPatternCSharp
                     break;
                 case "3":
                     ShowStructuralPatterns();
+                    break;
+                case "4":
+                    ShowInterviewQuestions();
                     break;
                 default:
                     Console.WriteLine("Invalid choice!");
@@ -37,6 +41,7 @@ namespace DesignPatternCSharp
             Console.WriteLine("3. Observer");
             Console.WriteLine("4. State");
 
+
             var choice = Console.ReadLine();
             switch (choice)
             {
@@ -51,7 +56,7 @@ namespace DesignPatternCSharp
                     break;
                 case "4":
                     Console.WriteLine("State pattern is not implemented yet.");
-                    break;    
+                    break;
                 default:
                     Console.WriteLine("Invalid choice!");
                     break;
@@ -93,6 +98,31 @@ namespace DesignPatternCSharp
                     break;
                 case "2":
                     Console.WriteLine("Decorator pattern is not implemented yet.");
+                    break;
+                default:
+                    Console.WriteLine("Invalid choice!");
+                    break;
+            }
+        }
+
+        static void ShowInterviewQuestions()
+        {
+            Console.WriteLine("\nSelect an interview question:");
+            Console.WriteLine("\n1. Shape Hierarchy ");
+            Console.WriteLine("\n2. Question 2:");
+            Console.WriteLine("\n3. Question 3:");
+
+            var choice = Console.ReadLine();
+            switch (choice)
+            {
+                case "1":
+                   Interview.ShapeHierarchy.Program.Run();
+                    break;
+                case "2":
+                    // Console.WriteLine("Question 2: What is the difference between a decorator and a proxy pattern?");
+                    break;
+                case "3":
+                    // Console.WriteLine("Question 3: What is the difference between a strategy and a observer pattern?");
                     break;
                 default:
                     Console.WriteLine("Invalid choice!");
