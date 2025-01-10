@@ -1,8 +1,9 @@
 namespace DesignPatternCSharp.Interview.ShapeHierarchy
 {
-
     // Abstract class Shape representing a basic geometric shape
-    public abstract class Shape
+    // Change class to "internal" to prevent outside access to the Shape classes 
+    // Only derived classes within the same assembly can inherit and implement the abstract members
+    internal abstract class Shape : IShape
     {
         //Methods 
         public abstract double CalculateArea();
@@ -10,9 +11,7 @@ namespace DesignPatternCSharp.Interview.ShapeHierarchy
 
         public abstract string GetDescription();
 
-
         //Properties
-
-        public abstract string name { get; set; }
+        public abstract string Name { get; set; }
     }
 }

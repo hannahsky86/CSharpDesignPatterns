@@ -140,11 +140,12 @@ namespace DesignPatternCSharp
                     Console.WriteLine("Enter a radius: \n");
                     var radius = ParseDoubleInput(Console.ReadLine());
 
-                    var triangle = new Triangle(triangleSideA, triangleSideB, triangleSideC);
-                    var rectangle = new Rectangle(rectangleSideA, rectangleSideB);
-                    var circle = new Circle(radius);
+                    // Reference the static Shape Factory to delegate creation of the shapes 
+                    var triangle = ShapeFactory.CreateTriangle(triangleSideA, triangleSideB, triangleSideC);
+                    var rectangle = ShapeFactory.CreateRectangle(rectangleSideA, rectangleSideB);
+                    var circle = ShapeFactory.CreateCircle(radius);
 
-                    var shapes = new List<Shape> { triangle, rectangle, circle };
+                    var shapes = new List<IShape> { triangle, rectangle, circle };
                     _shapeManager.DisplayShapeDetails(shapes);
 
                     break;

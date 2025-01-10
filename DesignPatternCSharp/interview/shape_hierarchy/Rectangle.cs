@@ -2,36 +2,35 @@ using System;
 
 namespace DesignPatternCSharp.Interview.ShapeHierarchy
 {
-    public class Rectangle : Shape
+    internal class Rectangle : Shape
     {
-
         // Properties
-        double length { get; set; }
-        double width { get; set; }
+        private double Length { get; set; }
+        private double Width { get; set; }
 
-        public override string name { get; set; }
+        public override string Name { get; set; }
 
-        //Constructor
+        // Constructor
         public Rectangle(double length, double width)
         {
-            this.name = "Rectangle";
-            this.length = length;
-            this.width = width;
+            Name = "Rectangle";
+            Length = length;
+            Width = width;
         }
 
         public override double CalculateArea()
         {
-            return length * width;
+            return Length * Width;
         }
 
         public override double CalculatePerimeter()
         {
-            return 2 * (length + width);
+            return 2 * (Length + Width);
         }
 
         public override string GetDescription()
         {
-            return $"This is a {name} with length {length} and width {width}";
+            return $"This is a {Name} with length {Length} and width {Width}";
         }
     }
 }

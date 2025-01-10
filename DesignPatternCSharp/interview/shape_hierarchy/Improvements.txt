@@ -1,24 +1,32 @@
+ChatGPT 4o 
+
 1. General Improvements
+
 done - Separation of Concerns (SoC):
 The Main method handles both user input and design pattern logic. Extract the menu logic into separate classes or methods for better modularity.
 Consider creating a MenuManager class to handle all menu-related tasks.
 
-Dependency Injection:
+done - Dependency Injection:
 Use dependency injection to manage dependencies like ShapeManager or other components. This improves testability and decouples dependencies.
-Error Handling:
 
+
+Error Handling:
 Add error handling for invalid inputs (e.g., non-numeric entries). Use try-catch blocks or input validation to avoid crashes.
+
 2. Behavioral Pattern Handling
 State Pattern Implementation Placeholder:
 Instead of displaying a placeholder message, create a basic implementation or stub to encourage completion later.
 Reflection or Factory Pattern for Dynamic Pattern Selection:
 Instead of hardcoding cases for patterns, use reflection or a factory pattern to dynamically load and run the selected pattern class. This makes it easier to add new patterns without modifying the existing menu logic.
+
 3. Creational Pattern Handling
 Implement Patterns:
 Provide basic implementations for the Builder and Singleton patterns to showcase their functionality.
+
 4. Structural Pattern Handling
 Implement Patterns:
 Similarly, implement basic versions of Adapter and Decorator patterns.
+
 5. Shape Hierarchy Enhancements
 Validation for Shapes:
 
