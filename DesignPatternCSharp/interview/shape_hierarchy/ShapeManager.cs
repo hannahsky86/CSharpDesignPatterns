@@ -1,17 +1,12 @@
 using System;
 using System.Collections.Generic;
 
+
+
 namespace DesignPatternCSharp.Interview.ShapeHierarchy
 {
-    public class ShapeManager
+    public class ShapeManager : IShapeManager
     {
-
-        // public List<Shape> shapes { get; set; }
-
-        public ShapeManager()
-        {
-            // this.shapes = shapes;
-        }
 
         public void DisplayShapeDetails(List<Shape> shapes)
         {
